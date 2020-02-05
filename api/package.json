@@ -13,7 +13,7 @@
     "start:prod": "npm run build:prod && npm run start:server",
     "build:prod": "babel src -s -D -d build",
     "start:server": "node build/index.js",
-    "kungfu:create": "bash ./scripts/create-module.sh"
+    "kungfu:create-module": "bash ./scripts/create-module.sh"
   },
   "keywords": [
     "kungfu"

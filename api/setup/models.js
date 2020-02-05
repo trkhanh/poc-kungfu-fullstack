@@ -7,7 +7,7 @@ import databaseConnection from './database'
 const models = {
     User: databaseConnection.import('../modules/user/model'),
     Product: databaseConnection.import('../modules/product/model'),
-    Crate: databaseConnection.import('../modules/crate/model'),
+    Kungfu: databaseConnection.import('../modules/kungfu/model'),
     Subscription: databaseConnection.import('../modules/subscription/model')
 }
 
